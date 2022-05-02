@@ -10,7 +10,7 @@ public class MyArrayList<E> {
 	public static final int INITIAL_CAPACITY = 10;
 	private E[] data;
 	
-	// here we are creating an empty array list
+	// here we are creating an empty array list ( constructor ) 
 	@SuppressWarnings("unchecked")
 	public MyArrayList() {
 		this.size = 0;
